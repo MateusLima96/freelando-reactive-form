@@ -21,8 +21,9 @@ const MODULES = [
   selector: 'app-root',
   imports: [
     ...COMPONENTS,
-    ...MODULES
-  ],
+    ...MODULES,
+    RouterOutlet
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
